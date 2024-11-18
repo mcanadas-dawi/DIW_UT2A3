@@ -1,0 +1,58 @@
+.cards {
+    /*************  ADD YOUR CODE HERE ************/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    /************** END OF YOUR CODE ***************/
+}
+
+.card {
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    padding:5px;
+    /*************  ADD YOUR CODE HERE ************/
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    width: 225px;
+    height: 400px;
+    overflow: hidden;
+    position:relative;
+    /************** END OF YOUR CODE ***************/
+}
+.card img {
+    /*************  ADD YOUR CODE HERE ************/
+    width: 100%;
+    height: auto;
+    padding: 0;
+    
+    /************** END OF YOUR CODE ***************/
+}
+
+.card .text {
+    padding: 0 5px 5px;
+
+}
+/* ESTE FRAGMENTO ESTA AÑADIDO POR MI */
+.card .text h3 {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card .text>button {
+    background: #1d486b;
+    border: 0;
+    color: white;
+    /*************  ADD YOUR CODE HERE ************/
+    text-align: center;
+    padding:8px;
+    margin-top: auto;
+    position:absolute;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    /************** END OF YOUR CODE ***************/
+}
